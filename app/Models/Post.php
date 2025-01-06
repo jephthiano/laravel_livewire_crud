@@ -13,12 +13,13 @@ class Post extends Model
         'message',
     ];
 
+    protected $dispatchesEvents = [
+        'created' => PostCreated::class,
+    ];
+
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
     }
 
-    protected $dispatchesEvents = [
-        'created' => ChirpCreated::class,
-    ];
 }
