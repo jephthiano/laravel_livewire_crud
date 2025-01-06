@@ -33,6 +33,24 @@ new class extends Component {
  
         $this->getPosts();
     }
+
+    #[On('post-edit-canceled')]
+    #[On('post-updated')] 
+    public function disableEditing(): void
+    {
+        $this->editing = null;
+ 
+        $this->getPosts();
+    } 
+
+    public function delete(Post $post): void
+    {
+        $this->authorize('delete', $post);
+ 
+        $post->delete();
+ 
+        $this->getPosts();
+    }
 }; 
 ?>
 
@@ -67,12 +85,15 @@ new class extends Component {
                                 <x-dropdown-link wire:click="edit({{ $post->id }})">
                                     {{ __('Edit') }}
                                 </x-dropdown-link>
+
+                                <x-dropdown-link wire:click="delete({{ $post->id }})" wire:confirm="Are you sure to delete this post?"> 
+                                    {{ __('Delete') }}
+                                </x-dropdown-link> 
                             </x-slot>
                         </x-dropdown>
                     @endif
 
                 </div>
-                {{-- <p class="mt-4 text-lg text-gray-900">{{ $post->message }}</p> --}}
 
                 @if ($post->is($editing)) 
                     <livewire:posts.edit :post="$post" :key="$post->id" />
