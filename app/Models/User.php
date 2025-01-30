@@ -81,6 +81,5 @@ class User extends Authenticatable
 
 
 
-
     
 }
