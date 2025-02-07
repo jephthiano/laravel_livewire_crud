@@ -57,6 +57,5 @@ class NewPost extends Notification
             //
         ];
     }
-
     
 }
