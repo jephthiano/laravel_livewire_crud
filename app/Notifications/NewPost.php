@@ -31,7 +31,6 @@ class NewPost extends Notification
         return ['mail'];
 
 
-
         
     }
 
