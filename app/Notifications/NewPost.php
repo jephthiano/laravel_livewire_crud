@@ -29,6 +29,41 @@ class NewPost extends Notification
     public function via(object $notifiable): array
     {
         return ['mail'];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
     }
 
     /**
