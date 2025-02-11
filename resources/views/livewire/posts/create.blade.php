@@ -45,17 +45,16 @@ new class extends Component
 
 
 
+
+
+
+
+
+
+
+
+
     
-
-
-
-
-
-
-
-
-
-
 }; 
 
 ?>
