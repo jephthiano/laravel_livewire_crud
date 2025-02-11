@@ -23,7 +23,6 @@ new class extends Component
 
 
 
-
     
 }; 
 
