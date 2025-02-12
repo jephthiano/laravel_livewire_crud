@@ -51,7 +51,6 @@ new class extends Component {
  
         $this->getPosts();
     }
-    
 }; 
 ?>
 
