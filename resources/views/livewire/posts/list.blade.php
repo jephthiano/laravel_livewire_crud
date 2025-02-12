@@ -89,7 +89,6 @@ new class extends Component {
 
 
 
-
     
 }; 
 ?>
