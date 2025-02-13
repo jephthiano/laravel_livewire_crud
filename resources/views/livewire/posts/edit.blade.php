@@ -31,7 +31,52 @@ new class extends Component
     public function cancel(): void
     {
         $this->dispatch('post-edit-canceled');
-    }  
+    }
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }; ?>
  
 <div>
