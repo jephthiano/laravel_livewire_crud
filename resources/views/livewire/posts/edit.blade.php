@@ -33,7 +33,8 @@ new class extends Component
         $this->dispatch('post-edit-canceled');
     }
       
-}; ?>
+}; 
+?>
  
 <div>
     <form wire:submit="updatePost"> 
