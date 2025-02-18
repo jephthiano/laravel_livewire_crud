@@ -36,7 +36,6 @@ new class extends Component
 }; 
 
 
-
 ?>
  
 <div>
