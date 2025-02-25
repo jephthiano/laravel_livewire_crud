@@ -49,7 +49,6 @@ new class extends Component
 
 
 
-
  
 <div>
     <form wire:submit="savePost"> 
