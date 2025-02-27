@@ -63,5 +63,4 @@ class PostPolicy
     {
         return false;
     }
-    
 }
