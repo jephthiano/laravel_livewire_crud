@@ -98,6 +98,5 @@ class NewPost extends Notification
 
 
 
-
     
 }
