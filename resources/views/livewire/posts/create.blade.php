@@ -75,7 +75,8 @@ new class extends Component
 
 
 
-    gi
+
+    
 }; 
 ?>
  
