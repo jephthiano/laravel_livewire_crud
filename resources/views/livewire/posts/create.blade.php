@@ -73,7 +73,6 @@ new class extends Component
 
 
 
-
     
 }; 
 ?>
