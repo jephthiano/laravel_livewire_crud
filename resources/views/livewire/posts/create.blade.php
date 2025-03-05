@@ -54,7 +54,6 @@ new class extends Component
 
 
 
-
         
     }
 }; 
