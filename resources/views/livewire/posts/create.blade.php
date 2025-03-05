@@ -22,7 +22,6 @@ new class extends Component
 
 
 
-
         
     }
 }; 
