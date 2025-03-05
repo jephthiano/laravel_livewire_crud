@@ -19,7 +19,6 @@ new class extends Component
 
         // trigger dispatch
         $this->dispatch('post-created'); 
-        
     }
 }; 
 ?>
