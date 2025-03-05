@@ -21,7 +21,6 @@ new class extends Component
         $this->dispatch('post-created'); 
 
 
-
         
     }
 }; 
