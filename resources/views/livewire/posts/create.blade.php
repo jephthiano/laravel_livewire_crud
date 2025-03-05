@@ -77,7 +77,6 @@ new class extends Component
 
 
 
-
         
     }
 }; 
