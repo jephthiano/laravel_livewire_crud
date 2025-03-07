@@ -24,7 +24,6 @@
 
 
 
-
         
     </div>
 </x-app-layout>
