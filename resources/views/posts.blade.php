@@ -19,7 +19,6 @@
 
 
 
-
         
     </div>
 </x-app-layout>
