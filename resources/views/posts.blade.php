@@ -6,7 +6,6 @@
 
 
 
-
         
     </div>
 </x-app-layout>
