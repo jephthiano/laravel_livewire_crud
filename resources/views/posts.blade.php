@@ -23,7 +23,6 @@
 
 
 
-
         
     </div>
 </x-app-layout>
