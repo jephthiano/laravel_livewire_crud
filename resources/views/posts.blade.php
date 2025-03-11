@@ -4,7 +4,6 @@
 
         <livewire:posts.list />
 
-
         
     </div>
 </x-app-layout>
