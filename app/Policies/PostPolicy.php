@@ -63,7 +63,6 @@ class PostPolicy
     {
         return false;
 
-
         
     }
 }
