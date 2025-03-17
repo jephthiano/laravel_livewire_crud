@@ -48,7 +48,6 @@ class PostPolicy
         return $this->update($user, $post);
     }
 
-
     
     /**
      * Determine whether the user can restore the model.
