@@ -95,7 +95,6 @@ class PostPolicy
 
 
 
-
     
     /**
      * Determine whether the user can restore the model.
